@@ -1,0 +1,11 @@
+@import url("Styles/reset.css");
+@import url("Styles/header.css");
+@import url("Styles/footer.css");
+@import url("Styles/sections.css");
+
+body {
+    background-color: rgb(1, 1, 26);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

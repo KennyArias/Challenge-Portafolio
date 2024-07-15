@@ -1,0 +1,47 @@
+header {
+    background-color: rgb(7, 7, 52);
+}
+
+.nombre {
+    font-style: oblique;
+    font-size: 35px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: silver;
+}
+
+@media (max-width:740px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .nombre{
+        padding-top: 20px;
+    }
+}

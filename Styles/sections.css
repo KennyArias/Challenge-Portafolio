@@ -1,0 +1,123 @@
+section {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion {
+    display: flex;
+    font-size: 30px;
+    cursor: default;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.parrafo {
+    display: flex;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    cursor: default;
+    color: white;
+}
+
+img {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    width: 50px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    cursor: default;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 6px;
+}
+
+.logo-cendi img{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    padding: 30px;
+}
+
+#cendi {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 205px;
+    height: 130px;
+    padding: 20px;
+}
+
+.alura {
+    width: 250px;
+}
+
+h6 {
+    color: white;
+    font-size: 20px;
+}
+
+.logo-cendi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulos {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+.titulos h2 {
+    padding: 0 20px;
+}
+
+#contacto {
+    height: 40%;
+}
+
+.contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 45%;
+    gap: 10px
+}
+
+.datos-contacto {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+}
+
+.boton {
+    background: rgb(241, 239, 239);
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+
+.boton:hover {
+    background-color: rgb(130, 231, 231);
+}
